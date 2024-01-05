@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student_management_system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+         <div class="container">
+            <form class="form">
+                <input type="text" name="name" required placeholder="Name">
+                <input type="text" name="email" required placeholder="Email">
+                <input type="number" name="salary" required placeholder="Salary">
+                <input type="text" name="companyName" required placeholder="Company Name">
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+                <select name="role">
+                    <option value="SOFTWARE ENGINEER">SOFTWARE ENGINEER</option>
+                    <option value="SDE">SDE</option>
+                    <option value="WEB DEVLOPER">WEB DEVLOPER</option>
+                </select>
+                <button class="btn">Add Employee</button>
+            </form>
+            <div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Salary</th>
+                            <th>Company Name</th>
+                            <th>Gender</th>
+                            <th>Role</th>
+                            <th>Options</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+
+                </table>
+            </div>
+         </div>
+
+    <script src="./employee.js"></script>
+    <script src="./edit-employee.js"></script>
+</body>
+</html>

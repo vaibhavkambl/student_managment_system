@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    background-color: black;
+    grid-template-columns: 3fr 7fr;
+    color: white;
+}
+.form {
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.btn {
+    background-color: gray;
+}
+.form > input , .form > select , .form > button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.table {
+   color: #fff;
+   width: 100%;
+   border-collapse: collapse;
+}
+.table, th, td {
+    padding: 15px 10px;
+    border: 1px solid #ededed;
+}
+.form:valid > button {
+    background-color: blueviolet;
+    color: #fff;
+}
+
